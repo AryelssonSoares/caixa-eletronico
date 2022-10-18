@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+    font-size: 62.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo {
+    background-color: azure;
+    width: 120vh;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.conteudo-imagem {
+    display: flex;
+    align-items: center;
+}
+.imagem {
+    width: 45vh;
+    height: 45vh;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.conteudo-principal h1 {
+    font-size: 3rem;
+}
+
+.conteudo-principal p, h2 {
+    font-size: 2rem;
+}
+
+#inpValor {
+    border-radius: 5px;
+    
+}
+
+#btnExibir {
+    border-radius: 5px;
+    height: 3vh;
+}
+
+#btnExibir:hover {
+    background-color: rgba(0, 255, 255, 0.281);
+}
+
+#outNotas100, #outNotas50, #outNotas10 {
+    font-size: 1.6rem;
+}
